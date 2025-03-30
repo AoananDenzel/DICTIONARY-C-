@@ -1,0 +1,77 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main(){
+    string a;
+    
+    cout << "Enter your word:";
+    cin >> a;
+    
+    if (a == "Levi Ackerman"){
+        cout <<"Humanity's Strongest Soldier";
+    }else if (a == "Uchiha Sasuke"){
+        cout <<"The Last Uchiha";
+    }else if (a == "Gintoki Sakata"){
+        cout <<"The White Demon";
+    }else if (a == "Brook"){
+        cout <<"Soul King";
+    }else if (a == "Meliodas"){
+        cout <<"Sin of Wrath";
+    }else if (a == "Diane"){
+        cout <<"Sin of Envy";
+    }else if (a == "Ban"){
+        cout <<"Sin of Greed";
+    }else if (a == "King"){
+        cout <<"Sin of Sloth";
+    }else if (a == "Gowther"){
+        cout <<"Sin of Lust";
+    }else if (a == "Merlin"){
+        cout <<"Sin of Gluttony";
+    }else if (a == "Escanor"){
+        cout <<"Sin of Pride";
+    }else if (a == "Gojo Satoru"){
+        cout <<"The Honored One";
+    }else if (a == "Ryomen Sukuna"){
+        cout <<"The King of Curses";
+    }else if (a == "Trafalgar D. Law"){
+        cout <<"Surgeon of Death";
+    }else if (a == "Monkey D. Luffy"){
+        cout <<"The Warrior of Liberation";
+    }else if (a == "Gol D. Roger"){
+        cout <<"Pirate King";
+    }else if (a == "Roronoa Zoro"){
+        cout <<"The King of Hell";
+    }else if (a == "Vinsmoke Sanji"){
+        cout <<"Black Leg";
+    }else if (a == "Julian Loki"){
+        cout <<"The God Sprinter";
+    }else if (a == "Asuna Yuuki"){
+        cout <<"Flash";
+    }else if (a == "Dracule Mihawk"){
+        cout <<"Strongest Swordsman";
+    }else if (a == "Guts"){
+        cout <<"The Black Swordsman";
+    }else if (a == "Ken Kaneki"){
+        cout <<"The One Eyed King";
+    }else if (a == "Light Yagami"){
+        cout <<"Kira";
+    }else if (a == "Genos"){
+        cout <<"Demon Cyborg";
+    }else if (a == "Ohma Tokita"){
+        cout <<"The Ashura";
+    }else if (a == "Shanks"){
+        cout <<"Akagami";
+    }else if (a == "Marshall D. Teach"){
+        cout <<"Blackbeard";
+    }else if (a == "Edward Newgate"){
+        cout <<"Whitebeard";
+    }else if (a == "Tatsumaki"){
+        cout <<"Tornado of Terror";
+    }else{
+        cout << "Try a different word";
+    }
+    
+    return 0;
+}
